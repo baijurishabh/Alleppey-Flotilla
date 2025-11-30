@@ -26,8 +26,8 @@
 /* ------------ Logo ------------- */
 .logo {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     z-index: 10;
 }
 
@@ -78,25 +78,27 @@
 .book-btn:hover {
     background-color: #218838;
 }
-
 /* -------------------------------------------------------
    📱 MOBILE RESPONSIVE (max-width: 600px)
 --------------------------------------------------------*/
 @media (max-width: 600px) {
+
     .logo img {
-        width: 140px;
+        width: 90px;       /* smaller size */
+        margin-top: 5px;    /* move upward */
+        margin-left: 5px;   /* move left toward corner */
     }
 
     .text_banner h3 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .text_banner h1 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .text_banner h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .book-btn {
@@ -104,6 +106,7 @@
         font-size: 1rem;
     }
 }
+
 
 /* -------------------------------------------------------
    📲 TABLET RESPONSIVE (600px–900px)
@@ -225,8 +228,6 @@
     font-weight: 400;
     line-height: 1.4;
 }
-
-
 
 /* Center card lower effect */
 .package_item_2 {
@@ -756,7 +757,7 @@
 
 .Activites_item p,
 .Activites_item_2 p {
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     line-height: 1.5;
     margin: 15px auto 50px auto;
